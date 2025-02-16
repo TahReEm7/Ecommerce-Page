@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- styles -->
+     <style>
+        .bebas{
+            font-family: "Bebas Neue", serif;
+        }
+        .roboto{
+            font-family: "Roboto", serif;
+        }
+        .gradient{
+            background-image: linear-gradient(#A4BC46 0%, #85A019 100%);
+        }
+     </style>
+
+</head>
+<body class="lg:container mx-auto roboto">
+    <!-- Header -->
+     <header>
+        <!-- Navbar -->
+            <nav>
+                <div class="navbar bg-[#FFFBF0] md:px-[60px]">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h16M4 18h7" />
+                          </svg>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                          <li><a>Homepage</a></li>
+                          <li><a>Products</a></li>
+                          <li><a>About Us</a></li>
+                          <li><a>Contact Us</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="navbar-center hidden md:flex">
+                      <a class="btn btn-ghost text-xl"><img class="max-w-[350px] p-3" src="./Assets/icons/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="navbar-end">
+                      <button class="btn btn-ghost btn-circle">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-5 w-5"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                      </button>
+                      <button class="btn btn-ghost btn-circle">
+                        <div class="indicator">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                          </svg>
+                          <span class="badge badge-xs badge-primary indicator-item"></span>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+            </nav>
+
+            <!-- Banner section -->
+             <section class="flex flex-col md:flex-row justify-between items-center bg-[#FFFBF0] md:p-[100px] ">
+                <div class="p-4 space-y-3 text-center md:text-start">
+                    <h1 class="bebas leading-none text-[40px] md:text-[80px] font-normal"><span class="text-[#FABE4C]">Be the Penguins</span> <br> <span class="text-[#363958]">of Winter</span></h1>
+                    <p class="text-[10px] md:text-[16px] text-[#3E3E3E]">Penguin Fashion – Trendy, stylish, and comfortable <br> clothing for every occasion. Shop now and stay fashionable!</p>
+                      <button class="rounded-lg text-[#FFFFFF] gradient py-2 px-6 md:py-3 md:px-8"><i class='bx bx-cart'></i>BUY NOW</button>
+                </div>
+                <div>
+                    <img class="max-w-1/2 p-4 md:pr-8" src="./Assets/images/model.png" alt="Banner">
+                </div>
+             </section>
+     </header>
+     
+     <!-- Main -->
+      <main>
+
+      </main>
+
+      <!-- Footer -->
+       <footer>
+
+       </footer>
+</body>
+</html>
